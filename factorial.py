@@ -1,6 +1,6 @@
-n=int(input("Enter a number "))
+num=int(input("Enter a number "))
 fact=1
-while n>0:
-    fact*=n
-    n-=1
+while num>0:
+    fact=fact*num
+    num-=1
 print("Factorial= ",fact)
